@@ -1,0 +1,249 @@
+{
+  "basics": {
+    "name": "Joaquin Cardoso",
+    "label": "Full Stack Developer",
+    "image": "https://avatars.githubusercontent.com/u/90669163?v=4",
+    "email": "joaquincardoso2219@gmail.com",
+    "phone": "+54",
+    "url": "https://joa1907.github.io",
+    "summary":  "Desarrollador Web, vivo en Buenos Aires, Argentina, Hago trabajos con una startup y freelance",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Buenos Aires",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "joa.1907",
+        "url": "https://www.linkedin.com/in/joaquin-cardoso-9a0ab1286/"
+      },
+      {
+        "network": "GitHub",
+        "username": "joa.1907",
+        "url": "https://github.com/joa1907"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "StartUp",
+      "position": "FullStack Developer",
+      "url": "",
+      "startDate": "2024-03-01",
+      "endDate": null,
+      "summary": "Desarrollo de aplicación web para gestión de ordenes y envíos de una empresa. Utilizando Vue, JS, NodeJS, Express, MongoDB, tambien se realizó despliegue en vps.",
+      "highlights": [""]
+    },
+    {
+      "name": "StartUp",
+      "position": "Frontend Developer",
+      "url": "",
+      "startDate": "2024-01-10",
+      "endDate": "2024-02-01",
+      "summary": "Desarrollo de página web estatica para un emprendimiento. Tecnologias usadas: Vue, JS, HTML, CSS, enviar email vía formulario.",
+      "highlights": [""]
+    },
+    {
+      "name": "Freelance",
+      "position": "Servicio Técnico de PC",
+      "url": "",
+      "startDate": "2022-06-01",
+      "endDate": "2024-01-01",
+      "summary": "Diagnostico, mantenimiento de PC, actualizacion de hardware, instalación de software, etc.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [""]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Superior N°44 Las Heras",
+      "url": "",
+      "area": "Analista de Sistemas",
+      "studyType": "",
+      "startDate": "2017-03-01",
+      "endDate": "2022-03-05",
+      "score": "8.8",
+      "courses": [""]
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos",
+        "NOSQL",
+        "Almacenamiento de Datos",
+        "Backend",
+        "JSON"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Astro",
+      "level": "",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Framework",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Vue3",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [""]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "cv-web",
+      "isActive": true,
+      "description": "Pagina personal",
+      "highlights": ["CV"],
+      "url": ""
+    },
+    {
+      "name": "SudamericanaRugs",
+      "isActive": true,
+      "description": "Página de negocio",
+      "highlights": [
+        "Ingles",
+        "JavaScript",
+        "Vue"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Api",
+      "isActive": true,
+      "description": "Consumo de aplicacion",
+      "highlights": ["Retos para cualquier lenguaje"],
+      "url": ""
+    }
+  ]
+}

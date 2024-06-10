@@ -1,0 +1,120 @@
+---
+import Section from "../Section.astro";
+
+import { certificates } from "@cv";
+---
+
+<Section title="Certificados">
+  <ul>
+    {
+      certificates.map(({ name, date, issuer, url }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <div>
+                  <h3>{name}</h3>
+                </div>
+                <p>
+                  <time>{date}</time>
+                </p>
+                <p>{issuer}</p>
+              </header>
+
+              <footer>
+                <div class="no-print">
+                  <a href={url} target="_blank" rel="noopener noreferrer">
+                    <p>Link al certificado</p>
+                  </a>
+                </div>
+                <div class="print">
+                  <a href={url} target="_blank" rel="noopener noreferrer">
+                    <p>{url}</p>
+                  </a>
+                </div>
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  article {
+    border-radius: 8px;
+    border: 1px solid #f2f2f2;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    height: 100%;
+  }
+  article header {
+    flex: 1;
+  }
+  article h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  article a {
+    color: #111;
+  }
+  article p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin-bottom: 2px;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+
+  .print {
+    display: none;
+  }
+  .no-print {
+    display: block;
+  }
+  .no-print a:hover {
+    text-decoration: underline;
+  }
+  @media print {
+    ul {
+      grid-template-columns: 1fr 1fr;
+    }
+    .print {
+      display: block;
+      width: 100%;
+      height: auto;
+      word-wrap: break-word;
+      word-break: break-all;
+    }
+    .print a {
+      color: #111;
+      text-decoration: none;
+    }
+    .print p {
+      word-wrap: break-word;
+      word-break: break-all;
+      white-space: normal;
+      margin: 0;
+    }
+    .no-print {
+      display: none;
+    }
+  }
+</style>

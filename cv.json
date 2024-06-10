@@ -6,7 +6,7 @@
     "email": "joaquincardoso2219@gmail.com",
     "phone": "+54",
     "url": "https://joa1907.github.io",
-    "summary":  "Desarrollador Web, vivo en Buenos Aires, Argentina, Hago trabajos con una startup y freelance",
+    "summary": "Soy analista de sistemas y desarrollador Web, vivo en Buenos Aires, Argentina. Actualmente trabajo con una startup como FullStack Developer y también ofrezco servicios freelance.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -32,27 +32,27 @@
       "name": "StartUp",
       "position": "FullStack Developer",
       "url": "",
-      "startDate": "2024-03-01",
+      "startDate": "MARZO 2024",
       "endDate": null,
-      "summary": "Desarrollo de aplicación web para gestión de ordenes y envíos de una empresa. Utilizando Vue, JS, NodeJS, Express, MongoDB, tambien se realizó despliegue en vps.",
-      "highlights": [""]
+     "summary": "Desarrollo de una aplicación web para la gestión de pedidos, clientes, tipos de productos y envíos para una empresa. Utilización de tecnologías: Vue.js, JavaScript, Node.js, Express y MongoDB. Implementación y despliegue de la aplicación en un VPS. Actualmente se realiza mantenimiento.",
+     "highlights": [""]
     },
     {
       "name": "StartUp",
       "position": "Frontend Developer",
       "url": "",
-      "startDate": "2024-01-10",
-      "endDate": "2024-02-01",
-      "summary": "Desarrollo de página web estatica para un emprendimiento. Tecnologias usadas: Vue, JS, HTML, CSS, enviar email vía formulario.",
+      "startDate": "ENERO 2024",
+      "endDate": "MARZO 2024",
+      "summary":"Desarrollo de una página web estática para un emprendimiento utilizando Vue.js, JavaScript, HTML y CSS. Se integró un formulario de contacto para gestionar consultas de clientes, mejorando la comunicación y las oportunidades de negocio.",
       "highlights": [""]
     },
     {
       "name": "Freelance",
       "position": "Servicio Técnico de PC",
       "url": "",
-      "startDate": "2022-06-01",
-      "endDate": "2024-01-01",
-      "summary": "Diagnostico, mantenimiento de PC, actualizacion de hardware, instalación de software, etc.",
+      "startDate": "2019",
+      "endDate": "2023",
+      "summary": "Servicios de diagnóstico, mantenimiento, actualización de hardware y software para sistemas informáticos. Instalación y configuración de hardware y software según las necesidades del cliente.",
       "highlights": ["Started the company"]
     }
   ],
@@ -89,11 +89,30 @@
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "Ingles General para Desarrolladores de Software Nivel 8",
+      "date": "20-09-2023",
+      "issuer": "Centro Universitario de Idiomas",
+      "url": "https://drive.google.com/file/d/10tzoMRn0f3ssp9CtOyImtfnXNGA3n33d/view"
+    },
+    {
+      "name": "Procesamiento de datos con Python",
+      "date": "02-09-2023",
+      "issuer": "Argentina Programa 4.0",
+      "url": "https://drive.google.com/file/d/1jL3hcaUDpcw1_m6iq4tlQTgRegOtge4H/view"
+    },
+    {
+      "name": "Primeros pasos del desarrollo frontend",
+      "date": "31-03-2023",
+      "issuer": "Argentina Programa 4.0",
+      "url": "https://drive.google.com/file/d/16hNN44Iq25mOuojhW4e6mtKQsBnQmyS5/view"
+    },
+    {
+      "name": "Experto Universitario en PHP y MySQL",
+      "date": "09-04-2021",
+      "issuer": "UTN FRBA - Código de validación: CER-0AYRNQSG-542081",
+      "url": "https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado"
     }
+    
   ],
   "publications": [
     {
@@ -121,29 +140,14 @@
       "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
-      "name": "Tailwind",
-      "level": "",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
-      ]
+      "name": "VUE",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     },
     {
-      "name": "TypeScript",
+      "name": "PHP",
       "level": "",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "Backend",
-        "JavaScript Superset"
-      ]
-    },
-    {
-      "name": "Node",
-      "level": "",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      "keywords": ["Desarrollo Web", "Backend", "Servidor"]
     },
     {
       "name": "MySQL",
@@ -154,6 +158,11 @@
         "Almacenamiento de Datos",
         "Backend"
       ]
+    },
+    {
+      "name": "NodeJS",
+      "level": "",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
       "name": "MongoDB",
@@ -190,21 +199,16 @@
         "Framework",
         "Static Generation"
       ]
-    },
-    {
-      "name": "Vue3",
-      "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     }
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Nativo"
     },
     {
-      "language": "English",
-      "fluency": "Advanced"
+      "language": "Inglés",
+      "fluency": "B1.2"
     }
   ],
   "interests": [
@@ -221,29 +225,32 @@
   ],
   "projects": [
     {
-      "name": "cv-web",
+      "name": "Joaquin",
       "isActive": true,
-      "description": "Pagina personal",
+      "description": "Página personal",
       "highlights": ["CV"],
+      "url": ""
+    },
+    {
+      "name": "PampasLeather",
+      "isActive": false,
+      "description": "Sistema de gestión de empresa",
+      "highlights": ["Vue", "JavaScript", "NodeJS", "MongoDB", "VPS"],
       "url": ""
     },
     {
       "name": "SudamericanaRugs",
       "isActive": true,
-      "description": "Página de negocio",
-      "highlights": [
-        "Ingles",
-        "JavaScript",
-        "Vue"
-      ],
-      "url": ""
+      "description": "Página para emprendimiento",
+      "highlights": ["Vue", "JavaScript", "Ingles", "Email automatizado"],
+      "url": "https://sudamericanarugs.com"
     },
     {
-      "name": "Api",
+      "name": "SpaceX Api",
       "isActive": true,
-      "description": "Consumo de aplicacion",
-      "highlights": ["Retos para cualquier lenguaje"],
-      "url": ""
+      "description": "Consumo de servicio",
+      "highlights": ["Práctica", "Astro", "TypeScript"],
+      "url": "https://astro-curso.onrender.com"
     }
   ]
 }

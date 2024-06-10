@@ -7,9 +7,11 @@ import { work } from "@cv";
   <ul>
     {
       work.map(({ name, position, startDate, endDate, summary }) => {
-        const startYear = new Date(startDate).getFullYear();
+        /*    const startYear = new Date(startDate).getFullYear();*/
         const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual";
+          endDate != null ? endDate : "Actual";
+        /* endDate != null ? new Date(endDate).getFullYear() : "Actual"; */
+
         return (
           <li>
             <article>
@@ -21,9 +23,9 @@ import { work } from "@cv";
 
                 <div>
                   <time datetime={startDate} data-title={startDate}>
-                    {startYear}
+                    {startDate}
                   </time>
-                  {" - "}
+                  {"-"}
                   <time datetime={endDate} data-title={endDate}>
                     {endYear}
                   </time>
@@ -59,9 +61,9 @@ import { work } from "@cv";
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 4px
+    margin-bottom: 4px;
   }
-  time{
+  time {
     font-size: 0.85rem;
     color: #555;
   }

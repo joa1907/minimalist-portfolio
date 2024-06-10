@@ -4,13 +4,14 @@ const { title } = Astro.props;
 
 <section>
   {title && <h2>{title}</h2>}
-  <slot/>
+  <slot />
 </section>
 
 <style>
   section {
     max-width: 700px;
     margin: 0 auto 20px;
+    page-break-inside: avoid; /* Evitar que se rompa dentro de la página */
   }
 
   h2 {
@@ -18,5 +19,19 @@ const { title } = Astro.props;
     font-weight: 700;
     line-height: 1.5;
     font-size: 1.5rem;
+  }
+  @media print {
+    section {
+      max-width: 100%;
+    }
+    @page {
+      margin-top: 4rem; /* Ajusta el margen superior en todas las páginas */
+      margin-bottom: 0; /* Elimina el margen inferior en todas las páginas */
+      size: legal;
+    }
+    @page :first {
+      margin-top: 0; /* Elimina el margen superior en la primera página */
+      margin-bottom: 0; /* Elimina el margen inferior en la primera página */
+    }
   }
 </style>

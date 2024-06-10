@@ -34,8 +34,8 @@
       "url": "",
       "startDate": "MARZO 2024",
       "endDate": null,
-     "summary": "Desarrollo de una aplicación web para la gestión de pedidos, clientes, tipos de productos y envíos para una empresa. Utilización de tecnologías: Vue.js, JavaScript, Node.js, Express y MongoDB. Implementación y despliegue de la aplicación en un VPS. Actualmente se realiza mantenimiento.",
-     "highlights": [""]
+      "summary": "Desarrollo de una aplicación web para la gestión de pedidos, clientes, tipos de productos y envíos para una empresa. Utilización de tecnologías: Vue.js, JavaScript, Node.js, Express y MongoDB. Implementación y despliegue de la aplicación en un VPS. Actualmente se realiza mantenimiento.",
+      "highlights": [""]
     },
     {
       "name": "StartUp",
@@ -43,7 +43,7 @@
       "url": "",
       "startDate": "ENERO 2024",
       "endDate": "MARZO 2024",
-      "summary":"Desarrollo de una página web estática para un emprendimiento utilizando Vue.js, JavaScript, HTML y CSS. Se integró un formulario de contacto para gestionar consultas de clientes, mejorando la comunicación y las oportunidades de negocio.",
+      "summary": "Desarrollo de una página web estática para un emprendimiento utilizando Vue.js, JavaScript, HTML y CSS. Se integró un formulario de contacto para gestionar consultas de clientes, mejorando la comunicación y las oportunidades de negocio.",
       "highlights": [""]
     },
     {
@@ -89,7 +89,7 @@
   ],
   "certificates": [
     {
-      "name": "Ingles General para Desarrolladores de Software Nivel 8",
+      "name": "Inglés General para Desarrolladores de Software Nivel 8",
       "date": "20-09-2023",
       "issuer": "Centro Universitario de Idiomas",
       "url": "https://drive.google.com/file/d/10tzoMRn0f3ssp9CtOyImtfnXNGA3n33d/view"
@@ -112,7 +112,6 @@
       "issuer": "UTN FRBA - Código de validación: CER-0AYRNQSG-542081",
       "url": "https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado"
     }
-    
   ],
   "publications": [
     {
@@ -228,7 +227,7 @@
       "name": "Joaquin",
       "isActive": true,
       "description": "Página personal",
-      "highlights": ["CV"],
+      "highlights": ["Astro", "JavaScript"],
       "url": ""
     },
     {

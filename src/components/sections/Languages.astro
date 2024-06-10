@@ -1,15 +1,19 @@
 ---
 import Section from "@/components/Section.astro";
-import { skills } from "@cv";
+import { languages } from "@cv";
 ---
 
-<Section title="Habilidades">
+<Section title="Idiomas">
   <div class="container">
-    <div class="container-skills">
+    <div class="container-lang">
       <ul>
         {
-          skills.map(({ name }) => {
-            return <li>{name}</li>;
+          languages.map(({ language, fluency }) => {
+            return (
+              <li>
+                {language} - {fluency}
+              </li>
+            );
           })
         }
       </ul>
@@ -18,7 +22,7 @@ import { skills } from "@cv";
 </Section>
 
 <style>
-  .container{
+  .container {
     display: flex;
     flex-direction: column;
   }

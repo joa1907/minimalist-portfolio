@@ -6,7 +6,7 @@
     "email": "joaquincardoso2219@gmail.com",
     "phone": "+54",
     "url": "https://joa1907.github.io",
-    "summary": "Soy analista de sistemas y desarrollador Web, vivo en Buenos Aires, Argentina. Actualmente trabajo con una startup como FullStack Developer y también ofrezco servicios freelance.",
+    "summary": "Soy analista de sistemas y desarrollador Web, tengo 26 años y vivo en Buenos Aires, Argentina. Actualmente trabajo en una startup como FullStack Developer y también ofrezco servicios freelance.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -89,6 +89,12 @@
   ],
   "certificates": [
     {
+      "name": "Experto Universitario en PHP y MySQL",
+      "date": "09-04-2021",
+      "issuer": "UTN FRBA - Código de validación: CER-0AYRNQSG-542081",
+      "url": "https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado"
+    },
+    {
       "name": "Inglés General para Desarrolladores de Software Nivel 8",
       "date": "20-09-2023",
       "issuer": "Centro Universitario de Idiomas",
@@ -105,13 +111,8 @@
       "date": "31-03-2023",
       "issuer": "Argentina Programa 4.0",
       "url": "https://drive.google.com/file/d/16hNN44Iq25mOuojhW4e6mtKQsBnQmyS5/view"
-    },
-    {
-      "name": "Experto Universitario en PHP y MySQL",
-      "date": "09-04-2021",
-      "issuer": "UTN FRBA - Código de validación: CER-0AYRNQSG-542081",
-      "url": "https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado"
     }
+
   ],
   "publications": [
     {
@@ -139,7 +140,7 @@
       "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
-      "name": "VUE",
+      "name": "Vue.js",
       "level": "Avanzado",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     },
@@ -159,7 +160,7 @@
       ]
     },
     {
-      "name": "NodeJS",
+      "name": "Node.js",
       "level": "",
       "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
@@ -224,21 +225,21 @@
   ],
   "projects": [
     {
-      "name": "Joaquin",
+      "name": "Joaquin Cardoso",
       "isActive": true,
       "description": "Página personal",
       "highlights": ["Astro", "JavaScript"],
       "url": ""
     },
     {
-      "name": "PampasLeather",
+      "name": "Sistema de gestión",
       "isActive": false,
-      "description": "Sistema de gestión de empresa",
+      "description": "Aplicación web para una empresa",
       "highlights": ["Vue", "JavaScript", "NodeJS", "MongoDB", "VPS"],
       "url": ""
     },
     {
-      "name": "SudamericanaRugs",
+      "name": "Sudamericana Rugs",
       "isActive": true,
       "description": "Página para emprendimiento",
       "highlights": ["Vue", "JavaScript", "Inglés", "Contacto"],

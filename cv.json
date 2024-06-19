@@ -18,12 +18,12 @@
       {
         "network": "LinkedIn",
         "username": "joa.1907",
-        "url": "https://www.linkedin.com/in/joaquin-cardoso-9a0ab1286/"
+        "url": "linkedin.com/in/joaquin-cardoso-9a0ab1286/"
       },
       {
         "network": "GitHub",
         "username": "joa.1907",
-        "url": "https://github.com/joa1907"
+        "url": "github.com/joa1907"
       }
     ]
   },
@@ -92,25 +92,25 @@
       "name": "Experto Universitario en PHP y MySQL",
       "date": "09-04-2021",
       "issuer": "UTN FRBA - Código de validación: CER-0AYRNQSG-542081",
-      "url": "https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado"
+      "url": "sigead.utnba.centrodeelearning.com/alumnos/validar_certificado"
     },
     {
       "name": "Inglés General para Desarrolladores de Software Nivel 8",
       "date": "20-09-2023",
       "issuer": "Centro Universitario de Idiomas",
-      "url": "https://drive.google.com/file/d/10tzoMRn0f3ssp9CtOyImtfnXNGA3n33d/view"
+      "url": "drive.google.com/file/d/10tzoMRn0f3ssp9CtOyImtfnXNGA3n33d/view"
     },
     {
       "name": "Procesamiento de datos con Python",
       "date": "02-09-2023",
       "issuer": "Argentina Programa 4.0",
-      "url": "https://drive.google.com/file/d/1jL3hcaUDpcw1_m6iq4tlQTgRegOtge4H/view"
+      "url": "drive.google.com/file/d/1jL3hcaUDpcw1_m6iq4tlQTgRegOtge4H/view"
     },
     {
       "name": "Primeros pasos del desarrollo frontend",
       "date": "31-03-2023",
       "issuer": "Argentina Programa 4.0",
-      "url": "https://drive.google.com/file/d/16hNN44Iq25mOuojhW4e6mtKQsBnQmyS5/view"
+      "url": "drive.google.com/file/d/16hNN44Iq25mOuojhW4e6mtKQsBnQmyS5/view"
     }
 
   ],
@@ -229,28 +229,28 @@
       "isActive": true,
       "description": "Página personal",
       "highlights": ["Astro", "JavaScript"],
-      "url": ""
+      "url": "joa1907.github.io"
     },
     {
       "name": "Sistema de gestión",
       "isActive": false,
-      "description": "Aplicación web para una empresa",
-      "highlights": ["Vue", "JavaScript", "NodeJS", "MongoDB", "VPS"],
-      "url": ""
+      "description": "Aplicación web a pedido de una empresa para la gestión de ordenes, envios, clientes y tipos de productos.",
+      "highlights": ["Vue", "JavaScript", "NodeJS", "MongoDB"],
+      "url": "joa1907.github.io/#projects"
     },
     {
       "name": "Sudamericana Rugs",
       "isActive": true,
-      "description": "Página para emprendimiento",
-      "highlights": ["Vue", "JavaScript", "Inglés", "Contacto"],
-      "url": "https://sudamericanarugs.com"
+      "description": "Página web para emprendimiento, con el objetivo de mostrar sus productos y contactar clientes desde la página.",
+      "highlights": ["Vue", "CSS","JavaScript", "Contacto", "Inglés"],
+      "url": "sudamericanarugs.com"
     },
     {
       "name": "SpaceX Api",
       "isActive": true,
-      "description": "Consumo de servicio",
+      "description": "Proyecto de un curso de Astro, creación de componentes y consumo de servicio para mostrar datos.",
       "highlights": ["Práctica", "Astro", "TypeScript"],
-      "url": "https://astro-curso.onrender.com"
+      "url": "astro-curso.onrender.com"
     }
   ]
 }

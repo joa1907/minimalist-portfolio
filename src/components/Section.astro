@@ -7,6 +7,12 @@ const { title } = Astro.props;
   <slot />
 </section>
 
+<script>
+  window.addEventListener("beforeprint", function () {
+    window.scrollTo(0, 0); // Desplazar al principio de la página antes de imprimir
+  });
+</script>
+
 <style>
   section {
     max-width: 700px;
@@ -27,7 +33,7 @@ const { title } = Astro.props;
     @page {
       margin-top: 4rem; /* Ajusta el margen superior en todas las páginas */
       margin-bottom: 0; /* Elimina el margen inferior en todas las páginas */
-      size: legal;
+      /* size: legal; */
     }
     @page :first {
       margin-top: 0; /* Elimina el margen superior en la primera página */

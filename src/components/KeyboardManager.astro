@@ -22,7 +22,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
     id: network,
     section: "Social",
     title: network,
-    url,
+    url: `https://${url}`,
     icon,
     hotKey: `ctrl+${firstLetter}`,
   };

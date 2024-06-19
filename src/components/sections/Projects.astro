@@ -12,7 +12,12 @@ import { projects } from "@cv";
             <article>
               <header>
                 <h3>
-                  <a href={url} title={`Ver el proyecto ${name}`} target="_blank" rel="noopener noreferrer">
+                  <a
+                    href={`https://${url}`}
+                    title={`Ver el proyecto ${name}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     {name}
                   </a>
                   {isActive && <span>&bull;</span>}
@@ -61,17 +66,18 @@ import { projects } from "@cv";
     text-decoration: underline;
   }
   article p {
-    font-size: 0.8rem;
-    line-height: 1.2rem;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    font-weight: 600;
     margin-bottom: 4px;
   }
-  article h3 span{
+  article h3 span {
     color: #00da00;
   }
   footer {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 6px;
     font-size: 0.6rem;
   }
   footer span {

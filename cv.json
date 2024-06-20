@@ -242,7 +242,7 @@
       "name": "Sudamericana Rugs",
       "isActive": true,
       "description": "Página web para emprendimiento, con el objetivo de mostrar sus productos y contactar clientes desde la página.",
-      "highlights": ["Vue","JavaScript", "Contacto", "Inglés"],
+      "highlights": ["Vue","JavaScript", "Inglés"],
       "url": "sudamericanarugs.com"
     },
     {

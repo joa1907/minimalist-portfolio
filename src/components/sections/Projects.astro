@@ -21,8 +21,8 @@ import { projects } from "@cv";
                     {name}
                   </a>
                   {isActive && <span>&bull;</span>}
-                  <p>{description}</p>
                 </h3>
+                <p>{description}</p>
               </header>
               <footer>
                 {highlights.map((highlight) => {
@@ -66,17 +66,14 @@ import { projects } from "@cv";
     text-decoration: underline;
   }
   article p {
-    font-size: 0.9rem;
     line-height: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 4px;
+    font-weight: 550;
   }
   article h3 span {
     color: #00da00;
   }
   footer {
     display: flex;
-    flex-wrap: wrap;
     gap: 6px;
     font-size: 0.6rem;
   }

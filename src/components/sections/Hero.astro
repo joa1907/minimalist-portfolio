@@ -150,4 +150,17 @@ const printInfo = [linkedUrl].filter(Boolean).join(" • ");
       display: none;
     }
   }
+
+  @media (max-width: 600px) {
+    .container {
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      align-items: baseline;
+    }
+    figure {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+  }
 </style>

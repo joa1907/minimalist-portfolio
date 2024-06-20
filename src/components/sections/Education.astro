@@ -1,17 +1,17 @@
 ---
-import Section from "../Section.astro"
+import Section from "../Section.astro";
 
-import { education } from "@cv"
+import { education } from "@cv";
 ---
 
 <Section title="Educación">
   <ul>
     {
       education.map(({ institution, startDate, endDate, area }) => {
-        const startYear = new Date(startDate).getFullYear()
+        const startYear = new Date(startDate).getFullYear();
         const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual"
-        const years = `${startYear} - ${endYear}`
+          endDate != null ? new Date(endDate).getFullYear() : "Actual";
+        const years = `${startYear} - ${endYear}`;
 
         return (
           <li>
@@ -29,7 +29,7 @@ import { education } from "@cv"
               </footer>
             </article>
           </li>
-        )
+        );
       })
     }
   </ul>
@@ -59,9 +59,11 @@ import { education } from "@cv"
     font-size: 0.85rem;
   }
 
-  @media (width <= 700px) {
-    time {
-      text-align: right;
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 6px;
     }
   }
 </style>

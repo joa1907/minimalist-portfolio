@@ -5,6 +5,7 @@ import Mail from "@/icons/Mail.astro";
 import Github from "@/icons/Github.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import WorldMap from "@/icons/WorldMap.astro";
+import Pdf from "@/icons/Pdf.astro";
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
@@ -40,7 +41,6 @@ const printInfo = [linkedUrl].filter(Boolean).join(" • ");
             <a
               href={`mailto:${email}`}
               title={`Enviar un correo electronico a ${name} al correo ${email}`}
-              target="_blank"
               rel="noopener noreferrer"
             >
               <Mail />
@@ -62,6 +62,9 @@ const printInfo = [linkedUrl].filter(Boolean).join(" • ");
             );
           })
         }
+        <a id="printLink" href="#" title="Imprimir">
+          <Pdf />
+        </a>
       </footer>
     </div>
     <figure>
@@ -69,6 +72,21 @@ const printInfo = [linkedUrl].filter(Boolean).join(" • ");
     </figure>
   </div>
 </Section>
+
+<script>
+  // Obtener referencia al enlace
+  const printLink = document.getElementById("printLink");
+
+  if (printLink) {
+    // Agregar evento de clic al enlace
+    printLink.addEventListener("click", function (event) {
+      // Prevenir comportamiento por defecto del enlace
+      event.preventDefault();
+      // Llamar a la función de impresión de la página
+      window.print();
+    });
+  }
+</script>
 
 <style>
   .container {
@@ -117,7 +135,7 @@ const printInfo = [linkedUrl].filter(Boolean).join(" • ");
     color: #555;
     font-size: 0.65rem;
     display: flex;
-    gap: 4px;
+    gap: 6px;
     margin-top: 8px;
   }
 
@@ -157,10 +175,24 @@ const printInfo = [linkedUrl].filter(Boolean).join(" • ");
       flex-direction: column-reverse;
       align-items: baseline;
     }
+    .info {
+      padding: 0;
+      width: 100%;
+    }
+    footer {
+      gap: 8px;
+    }
+    footer a {
+      width: 100%;
+    }
     figure {
       display: flex;
       width: 100%;
       justify-content: center;
+    }
+    figure img {
+      border-radius: 100%;
+      width: 110px;
     }
   }
 </style>

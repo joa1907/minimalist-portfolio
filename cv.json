@@ -6,7 +6,7 @@
     "email": "joaquincardoso2219@gmail.com",
     "phone": "+54",
     "url": "https://joa1907.github.io",
-    "summary": "Soy analista de sistemas y desarrollador Web, tengo 26 años y vivo en Buenos Aires, Argentina. Actualmente trabajo en una startup como FullStack Developer y también ofrezco servicios freelance.",
+    "summary": "Soy analista de sistemas y desarrollador web, tengo 26 años y vivo en Buenos Aires, Argentina. Actualmente, trabajo con un equipo de desarrolladores realizando diversos proyectos.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,21 +29,21 @@
   },
   "work": [
     {
-      "name": "StartUp",
+      "name": "Equipo de desarrollo",
       "position": "FullStack Developer",
       "url": "",
       "startDate": "MARZO 2024",
       "endDate": null,
-      "summary": "Desarrollo de una aplicación web para la gestión de pedidos, clientes, tipos de productos y envíos para una empresa. Utilización de tecnologías: Vue.js, JavaScript, Node.js, Express y MongoDB. Implementación y despliegue de la aplicación en un VPS. Actualmente se realiza mantenimiento.",
+      "summary": "Participé en el desarrollo de una aplicación web para la gestión de pedidos, clientes, productos y envíos para una empresa. Desarrollé componentes frontend para la gestión de registros en la base de datos, conectándolos a los endpoints del backend. También implementé la autenticación de usuarios. Tecnologías: Vue.js, JavaScript, Node.js, Express y MongoDB, despliegue en un VPS.",
       "highlights": [""]
     },
     {
-      "name": "StartUp",
+      "name": "Equipo de desarrollo",
       "position": "Frontend Developer",
       "url": "",
       "startDate": "ENERO 2024",
       "endDate": "MARZO 2024",
-      "summary": "Desarrollo de una página web estática para un emprendimiento utilizando Vue.js, JavaScript, HTML y CSS. Se integró un formulario de contacto para gestionar consultas de clientes, mejorando la comunicación y las oportunidades de negocio.",
+      "summary": "Desarrollo de una página web para un emprendimiento, integrando un formulario de contacto para gestionar consultas de clientes y mejorar la comunicación. Apliqué buenas prácticas de SEO, logrando un notable posicionamiento en motores de búsqueda.",
       "highlights": [""]
     },
     {

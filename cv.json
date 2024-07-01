@@ -30,7 +30,7 @@
   "work": [
     {
       "name": "Equipo de desarrollo",
-      "position": "FullStack Developer",
+      "position": "Fullstack Developer",
       "url": "",
       "startDate": "MARZO 2024",
       "endDate": null,
@@ -112,7 +112,6 @@
       "issuer": "Argentina Programa 4.0",
       "url": "drive.google.com/file/d/16hNN44Iq25mOuojhW4e6mtKQsBnQmyS5/view"
     }
-
   ],
   "publications": [
     {
@@ -225,13 +224,6 @@
   ],
   "projects": [
     {
-      "name": "Joaquin Cardoso",
-      "isActive": true,
-      "description": "Página personal",
-      "highlights": ["Astro", "JavaScript"],
-      "url": "joa1907.github.io"
-    },
-    {
       "name": "Sistema de gestión",
       "isActive": false,
       "description": "Aplicación web a pedido de una empresa para la gestión de ordenes, envios, clientes y tipos de productos.",
@@ -239,18 +231,18 @@
       "url": "joa1907.github.io/#projects"
     },
     {
-      "name": "Sudamericana Rugs",
+      "name": "Portfolio",
       "isActive": true,
-      "description": "Página web para emprendimiento, con el objetivo de mostrar sus productos y contactar clientes desde la página.",
-      "highlights": ["Vue","JavaScript", "Inglés"],
-      "url": "sudamericanarugs.com"
+      "description": "Página web de mi portfolio para mostrar mis proyectos, información sobre mí y de contacto.",
+      "highlights": ["Astro", "JavaScript", "Tailwind"],
+      "url": "joa1907.github.io"
     },
     {
-      "name": "SpaceX Api",
+      "name": "Sudamericana Rugs",
       "isActive": true,
-      "description": "Proyecto de un curso de Astro, creación de componentes y consumo de servicio para mostrar datos.",
-      "highlights": ["Práctica", "Astro", "TypeScript"],
-      "url": "astro-curso.onrender.com"
+      "description": "Página web para un emprendimiento, con el objetivo de mostrar sus productos y contactar clientes desde la página.",
+      "highlights": ["Vue", "JavaScript", "Inglés"],
+      "url": "sudamericanarugs.com"
     }
   ]
 }

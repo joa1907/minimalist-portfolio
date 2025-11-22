@@ -2,11 +2,11 @@
   "basics": {
     "name": "Joaquin Cardoso",
     "label": "Full Stack Developer",
-    "image": "img-joaquin.jfif",
+    "image": "img-joaquin.webp",
     "email": "joaquincardoso2219@gmail.com",
     "phone": "+54",
     "url": "https://joa1907.github.io",
-    "summary": "Soy analista de sistemas y desarrollador web, tengo 26 años y vivo en Buenos Aires, Argentina. Actualmente, trabajo con un equipo de desarrolladores realizando diversos proyectos.",
+    "summary": "Soy analista de sistemas y desarrollador web, con experiencia como fullstack y en proyectos freelance. Actualmente formo parte del desarrollo web de un proyecto que automatiza pruebas de QA mediante inteligencia artificial.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -29,31 +29,41 @@
   },
   "work": [
     {
+      "name": "Prompt and Plai",
+      "position": "Frontend Developer",
+      "url": "",
+      "startDate": "2024",
+      "endDate": null,
+      "summary": "Desarrollador frontend de la startup Prompt and Plai, enfocada en crear una plataforma SaaS de automatización con IA.",
+      "highlights": [
+        "Desarrollé la landing page en Next.js con TypeScript y Tailwind, siguiendo los diseños proporcionados por el equipo.",
+        "Implementé next-intl en el proyecto y trabajo en las páginas del dashboard que consumen las APIs del producto."
+      ]
+    },
+    {
+      "name": "Pampas Leather",
+      "position": "Fullstack Developer",
+      "url": "",
+      "startDate": "ENERO 2025",
+      "endDate": "MAYO 2025",
+      "summary": "",
+      "highlights": [
+        "Realicé mantenimiento y añadí funcionalidades en la aplicación web que desarrollé para la empresa, incluyendo filtros avanzados y formularios dinámicos para gestionar múltiples órdenes.",
+        "Colaboré con el diseñador gráfico en la actualización del diseño.",
+        "Integré Google Drive para subir archivos desde la aplicación y configuré backups automáticos con mongodump, scripts bash y cronjobs."
+      ]
+    },
+    {
       "name": "Equipo de desarrollo",
       "position": "Fullstack Developer",
       "url": "",
-      "startDate": "MARZO 2024",
-      "endDate": null,
-      "summary": "Participé en el desarrollo de una aplicación web para la gestión de pedidos, clientes, productos y envíos para una empresa. Desarrollé componentes frontend para la gestión de registros en la base de datos, conectándolos a los endpoints del backend. También implementé la autenticación de usuarios. Tecnologías: Vue.js, JavaScript, Node.js, Express y MongoDB, despliegue en un VPS.",
-      "highlights": [""]
-    },
-    {
-      "name": "Equipo de desarrollo",
-      "position": "Frontend Developer",
-      "url": "",
-      "startDate": "ENERO 2024",
-      "endDate": "MARZO 2024",
-      "summary": "Desarrollo de una página web para un emprendimiento, integrando un formulario de contacto para gestionar consultas de clientes y mejorar la comunicación. Apliqué buenas prácticas de SEO, logrando un notable posicionamiento en motores de búsqueda.",
-      "highlights": [""]
-    },
-    {
-      "name": "Freelance",
-      "position": "Servicio Técnico de PC",
-      "url": "",
-      "startDate": "2019",
-      "endDate": "2023",
-      "summary": "Servicios de diagnóstico, mantenimiento, actualización de hardware y software para sistemas informáticos. Instalación y configuración de hardware y software según las necesidades del cliente.",
-      "highlights": ["Started the company"]
+      "startDate": "2024",
+      "endDate": "2025",
+      "summary": "",
+      "highlights": [
+        "Desarrollé una aplicación web de gestión para Pampas Leather, centralizando datos y reduciendo tareas manuales. También realicé una página web para un emprendimiento, enfocada en mostrar sus productos.",
+        "Implementé el frontend en Vue.js y el backend en Node.js/Express, incluyendo componentes reutilizables, validaciones, gestión de estados con Pinia y un sistema de autenticación con JWT y control de roles."
+      ]
     }
   ],
   "volunteer": [
@@ -136,12 +146,37 @@
     {
       "name": "JavaScript",
       "level": "",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript", "Tipado"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "",
+      "keywords": ["Desarrollo Web", "Frontend", "CSS Framework"]
     },
     {
       "name": "Vue.js",
       "level": "Avanzado",
       "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "React",
+      "level": "",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Next.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
       "name": "PHP",
@@ -157,11 +192,6 @@
         "Almacenamiento de Datos",
         "Backend"
       ]
-    },
-    {
-      "name": "Node.js",
-      "level": "",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
       "name": "MongoDB",
@@ -239,10 +269,10 @@
     },
     {
       "name": "Sudamericana Rugs",
-      "isActive": true,
+      "isActive": false,
       "description": "Página web para un emprendimiento, con el objetivo de mostrar sus productos y contactar clientes desde la página.",
       "highlights": ["Vue", "JavaScript", "Inglés"],
-      "url": "sudamericanarugs.com"
+      "url": "joa1907.github.io/#projects"
     }
   ]
 }
